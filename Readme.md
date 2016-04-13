@@ -1,6 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Мария Панасенко](https://up.htmlacademy.ru/htmlcss/13/user/192347).
+* Наставник [Инна Кришталь] (https://htmlacademy.ru/profile/id43485)
 
 ---
 
