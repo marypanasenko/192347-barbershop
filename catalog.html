@@ -6,9 +6,11 @@
   </head>
   <body>
     <header class="main-header">
-    <div class="small-logo">
-      <img src="img/small-logo.png" width="" height="" alt="Барбершоп «Бородинский»">
-    </div>
+      <div class="small-logo">
+        <a href="">
+          <img src="img/small-logo.png" width="" height="" alt="Барбершоп «Бородинский»">
+        </a>
+      </div>
       <div class="container">
         <nav class="main-navigation">
           <ul>
@@ -54,36 +56,66 @@
         </nav>
       <section class="choise">
         <form action="" method="post">
-          <div>
-            <b class="choise-producer">Производители</b><br>
-            <input type="checkbox" name="producer" id="baxter-of-california" checked>
-            <label for="baxter-of-california">baxter of califorinia</label><br>
-            <input type="checkbox" name="producer" id="mr-natty">
-            <label for="mr-natty">mr natty</label><br>
-            <input type="checkbox" name="producer" id="suavecito" checked>
-            <label for="suavecito">suavecito</label><br>
-            <input type="checkbox" name="producer" id="malin-goetz">
-            <label for="malin-goetz">malin+goetz</label><br>
-            <input type="checkbox" name="producer" id="murrays">
-            <label for="murrays">murray's</label><br>
-            <input type="checkbox" name="producer" id="american-crew" checked>
-            <label for="american-crew">american crew</label><br>
-          </div>
-          <div>
-            <b class="product-group">Группы товаров</b><br>
-            <label>
-               <input type="radio" name="product-group" value="for-shaving">
-                Бритвенные принадлежности
-            </label>
-            <label>
-               <input type="radio" name="product-group" value="for-care" checked>
-                Средства для ухода
-            </label>
-            <label>
-               <input type="radio" name="product-group" value="accessoriese">
-                Аксессуары
-            </label>
-          </div>
+          <dl class="producer">
+            <dt>Производители</dt>
+              <dd>
+                <label>
+                  <input type="checkbox" name="producer" id="baxter-of-california" checked>
+                  baxter of califorinia
+                </label>
+              </dd>
+              <dd>
+                <label>
+                  <input type="checkbox" name="producer" id="mr-natty">
+                  baxter of califorinia
+                </label>
+              </dd>
+              <dd>
+                <label>
+                  <input type="checkbox" name="producer" id="suavecito" checked>
+                  baxter of califorinia
+                </label>
+              </dd>
+              <dd>
+                <label>
+                  <input type="checkbox" name="producer" id="malin-goetz">
+                  baxter of califorinia
+                </label>
+              </dd>
+              <dd>
+                <label>
+                  <input type="checkbox" name="producer" id="murrays">
+                  baxter of califorinia
+                </label>
+              </dd>
+              <dd>
+                <label>
+                  <input type="checkbox" name="producer" id="american-crew" checked>
+                  baxter of califorinia
+                </label>
+              </dd>
+            </dl>
+          <dl class="product-group">
+            <dt>Группы товаров</dt>
+              <dd>
+                <label>
+                  <input type="radio" name="product-group" value="for-shaving">
+                  Бритвенные принадлежности
+                </label>
+              </dd>
+              <dd>
+                <label>
+                  <input type="radio" name="product-group" value="for-care" checked>
+                  Средства для ухода
+                </label>
+              </dd>
+              <dd>
+                <label>
+                  <input type="radio" name="product-group" value="accessoriese">
+                  Аксессуары
+                </label>
+              </dd>
+            </dl>
           <input type="submit" value="Показать">
         </form>
       </section>
@@ -167,26 +199,28 @@
           <a class="4" href="#">4</a>
         </div>
       </section>
-      <footer class="main-footer">
-            <div class="container">
-              <section class="footer-contacts">
-                Барбершоп «Бородинский»<br>
-                Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-                <a href="#">Как нас найти?</a><br>
-                Телефон: +7 (812) 666-02-66
-              </section>
-              <section class="footer-social">
-                <p>Давайте дружить!</p>
-                <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-                <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-                <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-              </section>
-              <section class="footer-copyright">
-                <p>Разработано:</p>
-                <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-              </section>
-            </div>
-          </footer>
     </main>
-  </body>
+    <footer class="main-footer">
+    <div class="container">
+      <section class="footer-contacts">
+        <p>Барбершоп «Бородинский»</p>
+        <p>
+            Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8
+            <a href="#">Как нас найти?</a>
+            Телефон: <a href="tel:+78126660266">+7(812)666-02-66</a>
+        </p>
+      </section>
+      <section class="footer-social">
+        <p>Давайте дружить!</p>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+      </section>
+      <section class="footer-copyright">
+        <p>Разработано:</p>
+        <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+      </section>
+    </div>
+    </footer>
+</body>
 </html>
